@@ -1,0 +1,760 @@
+.more:after, .icon-external:after,
+.icon-wrapper .icon-after::after {
+    position: relative;
+    top: -0.08em;
+}
+
+.footnote-number {
+    vertical-align: top;
+    top: 0.1em;
+}
+
+sup.footnote-number{
+    top: initial;
+}
+
+a.footnote-number{
+    top: initial;
+}
+
+/* M1 copy */
+.section-hero.theme-dark .typography-hero-headline-super {
+    margin-bottom: 0;
+}
+
+
+.image-hero-behind-the-mac {
+    width: 2560px;
+    height: 600px;
+    background-size: 2560px 600px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-hero-behind-the-mac {
+        background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-hero-behind-the-mac {
+        width: 1069px;
+        height: 550px;
+        background-size: 1069px 550px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-hero-behind-the-mac {
+        background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-hero-behind-the-mac {
+        width: 620px;
+        height: 816px;
+        background-size: 620px 816px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-hero-behind-the-mac {
+        background-image: url("/kr/mac/home/aw/images/overview/btm/btm_macfamily_tiles__bar9saziobte_small_2x.jpg")
+    }
+}
+
+.section-behind-the-mac{
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+
+.section-behind-the-mac .product-image{
+    display: flex;
+    justify-content: center;
+}
+.section-hero-product.section-behind-the-mac .product-wrapper .product-image{
+    z-index: 0;
+}
+.section-behind-the-mac .product-image .image-hero-behind-the-mac{
+    background-position: center;
+}
+.section-behind-the-mac .product-copy{
+    position: absolute;
+    left: 50%;
+    transform: translateX(165px);
+}
+@media only screen and (max-width: 1068px) {
+    .section-behind-the-mac .product-copy{
+        transform: translateX(58px);
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-behind-the-mac .product-image{
+        height: 700px;
+        position: relative;
+        background-color: black;
+    }
+    .image-hero-behind-the-mac{
+        position: absolute;
+        bottom: 0;
+    }
+    .section-behind-the-mac .product-copy{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 45px;
+        width: 100%;
+    }
+    .section-behind-the-mac{
+        padding-top: 65px;
+    }
+}
+
+.section-behind-the-mac .product-wrapper{
+    position: relative;
+}
+.section-behind-the-mac .typography-eyebrow-elevated,
+.section-behind-the-mac .typography-hero-product-headline{
+    color: white;
+}
+
+.section-behind-the-mac .section-content{
+    width: 100%;
+}
+.section-behind-the-mac .cta-wrapper .typography-hero-product-link{
+    margin-top: 0;
+}
+.section-behind-the-mac .cta-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-behind-the-mac .cta-wrapper{
+        max-width: unset;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-behind-the-mac .cta-wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 270px;
+    }
+    
+}
+.section-behind-the-mac .cta-wrapper p{
+    margin-top: 0;
+}
+.section-behind-the-mac .cta-links{
+    display: inline-block;
+
+}
+.section-behind-the-mac .section-hero-product-copy{
+    margin: 0.4em 0;
+}
+
+
+
+
+
+.section-macbook-pro-13 {
+    padding: calc(137px - 35px) 0 0 0;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-macbook-pro-13 {
+        padding: calc(124px - 35px) 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-macbook-pro-13 {
+        padding: calc(106px - 69px) 0 33px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-hero-product .typography-hero-product-headline:lang(ko){
+    line-height: 1.07143;
+}
+
+.section-hero-product .typography-hero-product-eyebrow:lang(ko){
+    line-height: 1.381;
+}
+
+
+
+.section-mojave .product-eyebrow {
+    padding-top: 183px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-mojave .product-eyebrow {
+        padding-top: 66px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-mojave .product-eyebrow {
+        padding-top: 83px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .section-mojave .product-eyebrow {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 334px) {
+    .section-mojave .product-eyebrow {
+        padding-top: 57px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-mojave .product-copy {
+        max-width: 430px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .section-mojave .product-copy {
+        max-width: 87.5%;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .accessories .promo-copy-container .promo-headline {
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+    .modal-notify.modal-standard .content-wrapper {
+        margin-left:auto;
+        margin-right:auto;
+        width:100%
+    }
+}
+/* .apple-news {
+    display: none;
+} */
+
+
+.section-get-more .banner-promo.arcade .promo-copy-container {
+    padding-top: 171px;
+}
+
+.section-get-more .banner-promo.arcade .promo-intro {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .arcade .promo-headline {
+        left: 50%;
+        margin-left: -63px
+    }
+
+    .promo-section .banner-promo.arcade {
+        height: 400px;
+        min-height: 400px;
+    }
+
+    .section-get-more .banner-promo.arcade .promo-copy-container {
+        padding-top: 139px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .promo-section .banner-promo.arcade {
+        height: 490px;
+    }
+
+    .section-get-more .banner-promo.arcade .promo-copy-container {
+        padding-top: 45px;
+    }
+}
+
+
+
+/* BTS */
+.typography-back-to-school-headline {
+    font-size: 48px;
+    line-height: 1.08365;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-back-to-school-headline:lang(ko) {
+    line-height: 1.1875;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-back-to-school-headline {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-back-to-school-headline:lang(ko) {
+        line-height: 1.17873;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .typography-back-to-school-headline {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-back-to-school-headline:lang(ko) {
+        line-height: 1.2125;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+.section-back-to-school {
+    background-color: #fafafa;
+    overflow-x: hidden;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school {
+        margin-top: 20px;
+        padding-top: 86px;
+        padding-bottom: 64px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-back-to-school {
+        margin-top: 15px;
+        padding-top: 42px;
+        padding-bottom: 52px
+    }
+}
+
+.section-back-to-school a {
+    color: #0070c9
+}
+
+.section-back-to-school .row {
+    max-width: 1058px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.section-back-to-school .back-to-school-copy {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 340px;
+    padding: 0 30px;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school .back-to-school-copy {
+        width: 75%;
+        padding: 0;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0
+    }
+}
+
+.section-back-to-school .image-holder {
+    width: 400px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school .image-holder {
+        width: auto;
+        margin-top: 41px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-back-to-school .image-holder {
+        margin-top: 15px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school .back-to-school-image {
+        left: 21px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-back-to-school .back-to-school-image {
+        left: 14px
+    }
+}
+
+.section-back-to-school .product-headline {
+    width: calc(100% + 60px);
+    margin-left: -30px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-back-to-school .product-headline {
+        width: 100%;
+        margin-left: auto
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-back-to-school .product-headline {
+        max-width: 8em
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-back-to-school .product-headline, .section-back-to-school .typography-intro {
+        margin-right: auto
+    }
+
+    .section-back-to-school .typography-intro {
+        margin-left: auto;
+        max-width: 16em
+    }
+
+    .section-back-to-school .section-content .row {
+        flex-wrap: nowrap;
+    }
+
+    .section-back-to-school .back-to-school-copy {
+        width: 100%;
+    }    
+}
+
+.modal-notify .modal-notify-content .links-stacked.compact .link:hover {
+    text-decoration: none;
+}
+
+.section-compare .flex-header-wrapper {
+    min-height: 281px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-compare .flex-header-wrapper {
+        min-height: 197px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .flex-header-wrapper {
+        min-height: 0;
+    }
+}
+
+.image-get-more-apple-arcade-tile {
+    background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small_2x.jpg");
+    }
+}
+
+.section-compare .image-get-more-apple-arcade-tile {
+    background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-compare .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-compare .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-compare .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-compare .image-get-more-apple-arcade-tile {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small_2x.jpg");
+    }
+}
+
+
+/* apple arcade full width style*/
+
+
+.arcade {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 500px;
+    background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .arcade {
+        background-repeat: no-repeat;
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .arcade {
+        background-repeat: no-repeat;
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .arcade {
+        background-image: url("/kr/mac/home/aw/images/overview/get-more/apple_arcade_tile__e1315ks01hm6_small_2x.jpg");
+    }
+}
+
+/* macos */
+
+.image-macos-macos {
+    background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small_2x.jpg");
+    }
+}
+
+.section-compare .image-macos-macos {
+    background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-compare .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-compare .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-compare .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-compare .image-macos-macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small_2x.jpg");
+    }
+}
+
+.macos {
+    background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .macos {
+        background-image: url("/kr/mac/home/aw/images/overview/macos/continuity__e28lzmresgeq_small_2x.jpg");
+    }
+}
+
+/** financing **/
+
+.image-buystrip-icon-finance {
+    background-image: url("/kr/mac/home/aw/images/overview/buystrip/icon-finance__bz6oi5bk7f2a_large.svg")
+}
+
+.section-buystrip .image-icon-financing {
+    background-image: url("/kr/mac/home/aw/images/overview/buystrip/icon-finance__bz6oi5bk7f2a_large.svg");
+}
+
+/* Holiday */
+
+@media only screen and (min-width: 1069px){
+    .image-holiday-holiday-mac-family-hero {
+        background-image: url("/kr/mac/home/aw/images/overview/holiday/holiday_mac_family_hero__0rq2ectd3nm2_large.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1069px), 
+only screen and (min-resolution: 1.5dppx) and (min-width: 1069px), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1069px), 
+only screen and (min-resolution: 144dpi) and (min-width: 1069px) {
+    .image-holiday-holiday-mac-family-hero {
+        background-image: url("/kr/mac/home/aw/images/overview/holiday/holiday_mac_family_hero__0rq2ectd3nm2_large_2x.jpg");
+    }
+}
+
+@media only screen and (min-width: 1069px){
+    .section-holiday-2020 .banner-wrapper .banner-image {
+        background-image: url("/kr/mac/home/aw/images/overview/holiday/holiday_mac_family_hero__0rq2ectd3nm2_large.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1069px), 
+only screen and (min-resolution: 1.5dppx) and (min-width: 1069px), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1069px), 
+only screen and (min-resolution: 144dpi) and (min-width: 1069px) {
+    .section-holiday-2020 .banner-wrapper .banner-image {
+        background-image: url("/kr/mac/home/aw/images/overview/holiday/holiday_mac_family_hero__0rq2ectd3nm2_large_2x.jpg");
+    }
+}
